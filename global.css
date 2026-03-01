@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Comic Sans';
+    src: url(fonts/ldfcomicsans-font/Ldfcomicsans-jj7l.ttf);
+}
+
+* {
+    font-family:'Comic Sans';
+}
+
+p, h1, a{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p,a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.images img {
+    padding: 10px
+}
